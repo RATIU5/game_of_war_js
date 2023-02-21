@@ -1,4 +1,10 @@
 /**
+ * @fileoverview This file manages the DOM state and transitions
+ * Written by: Bridgerland Software Development
+ * Licensed under the MIT License
+ */
+
+/**
  * Runs a game of war with provided state and functions for setup and click handling.
  * @function
  * @param {object} state - The current state of the game.
