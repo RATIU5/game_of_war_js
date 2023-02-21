@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport"
+					content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet"
+					href="./styles/style.css" />
+		<title>War</title>
+		<script src="./scripts/Card.js"
+						async></script>
+		<script src="./scripts/Deck.js"
+						async></script>
+
+	</head>
+
+	<body>
+		<div id="game_over"
+				 class="hidden overlay">
+			<h1>Game Over</h1>
+			<h2 id="winner">Congratulations Player!</h2>
+			<a href="./index.html">Restart</a>
+		</div>
+		<div id="score"
+				 class="score_text">User: 26<br>Computer: 26</div>
+		<div class="game_container">
+			<div class="opponent">
+				<div class="card"
+						 id="opp_card">
+					<img src="./img/back.png"
+							 alt="card" />
+				</div>
+			</div>
+			<div class="table">
+				<div class="card hidden"
+						 id="card_opponent_table">
+					<img src="./img/back.png"
+							 alt="card" />
+				</div>
+				<div id="card_player_table"
+						 class="card hidden">
+					<img src="./img/back.png"
+							 alt="card" />
+				</div>
+			</div>
+			<div id="player_cards"
+					 class="player">
+				<div class="card card_input"
+						 id="player_card_0">
+					<img src="./img/8_of_hearts.png"
+							 alt="card" />
+				</div>
+				<div class="card card_input"
+						 id="player_card_1">
+					<img src="./img/8_of_hearts.png"
+							 alt="card" />
+				</div>
+				<div class="card card_input"
+						 id="player_card_2">
+					<img src="./img/8_of_hearts.png"
+							 alt="card" />
+				</div>
+				<div class="card card_input"
+						 id="player_card_3">
+					<img src="./img/8_of_hearts.png"
+							 alt="card" />
+				</div>
+				<div class="card card_input"
+						 id="player_card_4">
+					<img src="./img/8_of_hearts.png"
+							 alt="card" />
+				</div>
+			</div>
+		</div>
+
+		<script src="./scripts/lib.js"></script>
+		<script src="./scripts/main.js"></script>
+	</body>
+
+</html>
