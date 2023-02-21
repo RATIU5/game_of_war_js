@@ -1,5 +1,5 @@
 /**
- * Runs a game of cards with provided state and functions for setup and click handling.
+ * Runs a game of war with provided state and functions for setup and click handling.
  * @function
  * @param {object} state - The current state of the game.
  * @param {function} setupFn - The function to set up the game.
